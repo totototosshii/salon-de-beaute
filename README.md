@@ -10,6 +10,6 @@
 ・レスポンシブ込みのコーディング｡<br>
 
 ### 使用言語
-HTML、CSS(SCSS)、jQuery
+HTML / CSS(SCSS) / jQuery
 
 ### [→実際のサイト](https://salon-de-beaute.tosshii-portfolio.com/)
