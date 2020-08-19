@@ -19,7 +19,7 @@ $(function () {
 
 // ページトップボタン表示
 $(window).scroll(function () {
-  var now = $(window).scrollTop();
+  let now = $(window).scrollTop();
   if (now > 200) {
     $('.pagetop').fadeIn("fast");
   } else {
