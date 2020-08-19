@@ -10,7 +10,7 @@
     margin-bottom: 40px;
   }
   .alternate-layout__img{
-    box-shadow: 0 12px 10px -6px #333;
+    box-shadow: 0 8px 9px -7px #333;
   }
   .alternate-layout__detail {
     background-color: rgba(255, 255, 255, .8);
@@ -155,7 +155,7 @@
       height: auto;
       display: flex;
       flex-wrap: wrap;
-      box-shadow: 0 12px 10px -6px #333;
+      box-shadow: 0 8px 9px -7px #333;
     }
   }
 }
@@ -282,7 +282,7 @@
   background-image: url(../../images/menu_bg.jpg);
   .menu-board {
     position: relative;
-    box-shadow: 0 12px 10px -6px #333;
+    box-shadow: 0 8px 9px -7px #333;
   }
   .menu-heading {
     line-height: 1;
@@ -677,6 +677,9 @@
         font-size: 48px;
         line-height: 1;
       }
+    }
+    .access-scissorsimg, .access-location{
+      box-shadow: 0 8px 9px -7px #333;
     }
   }
 }

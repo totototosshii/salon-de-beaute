@@ -182,8 +182,8 @@ button {
 }
 
 .about-concept-bgimg .alternate-layout__img {
-  -webkit-box-shadow: 0 12px 10px -6px #333;
-          box-shadow: 0 12px 10px -6px #333;
+  -webkit-box-shadow: 0 8px 9px -7px #333;
+          box-shadow: 0 8px 9px -7px #333;
 }
 
 .about-concept-bgimg .alternate-layout__detail {
@@ -340,8 +340,8 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-shadow: 0 12px 10px -6px #333;
-          box-shadow: 0 12px 10px -6px #333;
+  -webkit-box-shadow: 0 8px 9px -7px #333;
+          box-shadow: 0 8px 9px -7px #333;
 }
 
 @media (min-width: 1200px) {
@@ -476,8 +476,8 @@ button {
 
 .menu .menu-board {
   position: relative;
-  -webkit-box-shadow: 0 12px 10px -6px #333;
-          box-shadow: 0 12px 10px -6px #333;
+  -webkit-box-shadow: 0 8px 9px -7px #333;
+          box-shadow: 0 8px 9px -7px #333;
 }
 
 .menu .menu-heading {
@@ -891,6 +891,11 @@ button {
 .access .inner .access-right .access-heading {
   font-size: 48px;
   line-height: 1;
+}
+
+.access .inner .access-scissorsimg, .access .inner .access-location {
+  -webkit-box-shadow: 0 8px 9px -7px #333;
+          box-shadow: 0 8px 9px -7px #333;
 }
 
 @media (min-width: 1200px) {
