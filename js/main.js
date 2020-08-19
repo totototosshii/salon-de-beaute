@@ -8,11 +8,11 @@ $('.burger-btn').on('click', function () {
 // ページ内リンクスクロール
 $(function () {
   $('a[href^="#"]').click(function () {
-    var odjust = -140;
-    var speed = 500;
-    var href = $(this).attr("href");
-    var target = $(href == "#" || href == "" ? 'html' : href);
-    var position = target.offset().top + odjust;
+    let odjust = -140;
+    let speed = 500;
+    let href = $(this).attr("href");
+    let target = $(href == "#" || href == "" ? 'html' : href);
+    let position = target.offset().top + odjust;
     $("html,body").animate({ scrollTop: position }, speed, "swing");
   });
 });
