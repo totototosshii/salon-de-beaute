@@ -162,6 +162,10 @@ button {
   }
 }
 
+.fv img {
+  width: 100%;
+}
+
 .about-concept-bgimg {
   background-image: url(../../images/aboutconcept_bg.png);
   background-size: cover;
@@ -793,7 +797,6 @@ button {
   top: 90%;
   left: 50%;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   bottom: -15px;
   width: 18px;
@@ -1116,7 +1119,6 @@ button {
     left: 50%;
     padding-top: 20px;
     -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
             transform: translateX(-50%);
   }
   .header .inner .header-nav {
@@ -1125,7 +1127,6 @@ button {
     top: 35%;
     left: 50%;
     -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
             transform: translateX(-50%);
   }
   .header .inner .header-nav .nav-list {
@@ -1192,7 +1193,6 @@ button {
   /* ハンバーガーメニューが開いたとき */
   .burger-btn.cross .bar_top {
     -webkit-transform: rotate(45deg) translate(8px, 8px);
-        -ms-transform: rotate(45deg) translate(8px, 8px);
             transform: rotate(45deg) translate(8px, 8px);
     -webkit-transition: .3s;
     transition: .3s;
@@ -1204,7 +1204,6 @@ button {
   }
   .burger-btn.cross .bar_bottom {
     -webkit-transform: rotate(-45deg) translate(8px, -8px);
-        -ms-transform: rotate(-45deg) translate(8px, -8px);
             transform: rotate(-45deg) translate(8px, -8px);
     -webkit-transition: .3s;
     transition: .3s;
@@ -1216,7 +1215,6 @@ button {
 
 .drawer {
   -webkit-transform: translateX(100%);
-      -ms-transform: translateX(100%);
           transform: translateX(100%);
   -webkit-transition: .3s;
   transition: .3s;
@@ -1230,7 +1228,6 @@ button {
 
 .drawer.slide-in {
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
           transform: translateX(0);
   -webkit-transition: .3s;
   transition: .3s;
